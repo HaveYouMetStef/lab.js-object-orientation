@@ -345,6 +345,8 @@ const colors = {
 //do not edit this object
 
 //Code Here 
+let colorsCopy = {...colors}
+console.log(colorsCopy);
 
 
 
