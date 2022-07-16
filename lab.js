@@ -358,7 +358,7 @@ console.log(colorsCopy);
 
 //do not edit the objects below
 const contactInfo = {
-  firstName: 'Helen',
+  firstName: 'helen',
   lastName: 'Parr',
   phoneNumber: 1234445555,
   email: 'helen@mymail.com',
@@ -375,10 +375,11 @@ const shippingInfo = {
 //do not edit the objects above
 
 //Code Here
+let helensInfo = {... contactInfo,... shippingInfo};
 
 
 //Print helensInfo to see what it looks like, there should be no repeating properties.
-
+console.log(helensInfo);
 
 //////////////////////////// PROBLEM 16 ////////////////////////////
 
