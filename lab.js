@@ -197,7 +197,8 @@ console.log(user.name);
 */
 
 //Code Here
-
+delete user.age;
+// console.log(user);
 
 //////////////////////////// PROBLEM 12 ////////////////////////////
 /*
