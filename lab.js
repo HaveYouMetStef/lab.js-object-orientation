@@ -208,8 +208,15 @@ delete user.age;
 */
 
 //Code here
-
-
+class Cat {
+  constructor(name, age, color) {
+    this.name = name;
+    this.age = age;
+    this.color = color;
+  }
+}
+let cat1 = new Cat('Jasper', 2, 'Black')
+console.log(cat1.age);
 
 //////////////////////////// PROBLEM 13 ////////////////////////////
 /*
