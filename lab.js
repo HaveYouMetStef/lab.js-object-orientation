@@ -129,18 +129,18 @@ function greeting( obj ) {
 */
 
 //Code Here
-function totalPopulation (obj) {
-  const statePopulation = {
+const statePopulation = {
   utah: 3100000,
   california: 39000000,
   texas: 28000000,
   arizona: 7100000
 }
-const {utah, california, texas , arizona} = statePopulation
+function totalPopulation (obj) {
+const {utah, california, texas , arizona} = obj
 return totalPopulation = (utah + california + texas + arizona);
 }
 // const {utah, california, texas , arizona} = totalPopulation
-console.log(totalPopulation());
+console.log(totalPopulation(statePopulation));
 
 //////////////////////////// PROBLEM 9 ////////////////////////////
 
@@ -153,7 +153,19 @@ console.log(totalPopulation());
 */
 
 //Code Here
-
+const leFood = {
+  carb: 'pasta',
+  fat: 'olive oil',
+  protein: 'chicken'
+}
+function ingredients (obj) {
+  const {carb, fat, protein} = obj
+  let array = []
+  array.push(carb, fat, protein)
+  return array
+}
+console.log(ingredients(leFood));
+// console.log(leFood);
 
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
