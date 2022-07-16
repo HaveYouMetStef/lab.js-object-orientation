@@ -25,14 +25,14 @@ const dog = {
   goodBoy: true
 }
 // dot notation
-console.log(dog.name);
+// console.log(dog.name);
 // square bracket
 // console.log(dog['name']);
 //////////////////////////// PROBLEM 3 ////////////////////////////
 /* Print out the name of the dog you created in problem 2 using dot-notation. */
 
 //Code here
-
+console.log(dog.name);
 
 
 //////////////////////////// PROBLEM 4 ////////////////////////////
