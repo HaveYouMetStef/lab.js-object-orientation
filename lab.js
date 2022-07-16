@@ -108,11 +108,13 @@ let {color, make, model, year} = carDetails
 
 function greeting( obj ) {
   //Code Here
-  
+  const {title, firstName, lastName} = obj
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
 }
+// Ask nitin or Norman
+// console.log(greeting('iOS Dev','Stef','Castillo'));
 
 
 
@@ -127,8 +129,18 @@ function greeting( obj ) {
 */
 
 //Code Here
-
-
+function totalPopulation (obj) {
+  const statePopulation = {
+  utah: 3100000,
+  california: 39000000,
+  texas: 28000000,
+  arizona: 7100000
+}
+const {utah, california, texas , arizona} = statePopulation
+return totalPopulation = (utah + california + texas + arizona);
+}
+// const {utah, california, texas , arizona} = totalPopulation
+console.log(totalPopulation());
 
 //////////////////////////// PROBLEM 9 ////////////////////////////
 
