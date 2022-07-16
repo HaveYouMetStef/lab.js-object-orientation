@@ -227,6 +227,24 @@ console.log(cat1.age);
 */
 
 //Code here
+// const wizardInfo = {
+//   name: 'Harry',
+//   age: 16,
+//   favoriteSpell: 'abra cadabra'
+// }
+class Wizard {
+  constructor(name, age, favoriteSpell) {
+    this.name = name;
+    this.age = age;
+    this.favoriteSpell = favoriteSpell;
+  }
+  castSpell() {
+    console.log(this.name, 'has cast', this.favoriteSpell);
+  }
+}
+const wizard1 = new Wizard('Harry', 16, 'Abra cadabra')
+wizard1.castSpell();
+
 
 //////////////////////////// PROBLEM 14 ////////////////////////////
 /*
