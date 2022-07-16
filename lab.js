@@ -19,9 +19,15 @@ console.log(me);
 //and goodBoy/goodGirl (a boolean).
 
 //Code here
-
-
-
+const dog = {
+  name: 'Luka',
+  color: 'Black & White',
+  goodBoy: true
+}
+// dot notation
+console.log(dog.name);
+// square bracket
+// console.log(dog['name']);
 //////////////////////////// PROBLEM 3 ////////////////////////////
 /* Print out the name of the dog you created in problem 2 using dot-notation. */
 
